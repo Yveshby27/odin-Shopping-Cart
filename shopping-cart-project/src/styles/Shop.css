@@ -1,0 +1,57 @@
+#shop {
+  position: relative;
+}
+
+#sum-section {
+  background-color: blue;
+  color: white;
+  font-weight: 700;
+  position: sticky;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin-left: 500px;
+  top: 0;
+  padding: 25px;
+}
+
+#shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.shop-part input {
+  width: 60px;
+}
+.addToCart-button,
+#checkout-button {
+  background: blue;
+  color: white;
+  font-weight: 700;
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border-style: none;
+}
+#checkout-button {
+  margin-left: 635px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+button:disabled {
+  background-color: grey;
+  opacity: 0.4;
+}
+.remove-button {
+  margin-left: 5px;
+  background-color: white;
+  color: blue;
+  font-weight: 700;
+  padding: 4px;
+  border-radius: 5px;
+  border-style: none;
+}
+li {
+  margin-top: 5px;
+}
